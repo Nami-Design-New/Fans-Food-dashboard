@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  new DataTable("#example");
+  new DataTable(".table");
 }), document.addEventListener("DOMContentLoaded", function() {
   new DataTable("#scroll-vertical", {
     scrollY: "210px",
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
       .draw(!1), a++;
   }), $("#addRow").click();
 }), $(document).ready(function() {
-  $("#example").DataTable();
+  $(".table").DataTable();
 }), document.addEventListener("DOMContentLoaded", function() {
   new DataTable("#fixed-header", { fixedHeader: !0 });
 }), document.addEventListener("DOMContentLoaded", function() {
