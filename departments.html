@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en" data-appColor="default" data-layout="vertical" data-topbar="light" data-sidebar="dark"
     data-sidebar-size="lg" data-sidebar-image="none" data-preloader="enable" dir="ltr">
+
 <head>
     <meta charset="utf-8" />
-    <title>Epal Dashboard</title>
+    <title>delivery Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Epal Solutions Admin & Dashboard" name="description" />
-    <meta content="Epal Solutions" name="author" />
+    <meta content="delivery Admin & Dashboard" name="description" />
+    <meta content="delivery" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/fav.svg">
     <!-- Layout config Js -->
@@ -29,6 +30,7 @@
     <!-- filepond -->
     <link rel="stylesheet" href="assets/css/filepond.min.css">
 </head>
+
 <body>
     <!-- Begin page -->
     <div id="layout-wrapper">
@@ -332,9 +334,8 @@
                                             </div>
                                             <div class="my-3 text-center view-all">
                                                 <button type="button"
-                                                    class="btn btn-soft-success waves-effect waves-light">View
-                                                    All Messages <i
-                                                        class="ri-arrow-right-line align-middle"></i></button>
+                                                    class="btn btn-soft-success waves-effect waves-light">Load Old
+                                                    Messages <i class="ri-arrow-right-line align-middle"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -356,7 +357,7 @@
                                     <img class="rounded-circle header-profile-user"
                                         src="assets/images/users/user-dummy-img.jpg" alt="Header Avatar">
                                     <span class="text-start ms-xl-2">
-                                        <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text"> MR . Waled
+                                        <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text"> MR . Hamza
                                         </span>
                                         <span class="d-none d-xl-block ms-1 fs-12 user-name-sub-text">Founder</span>
                                     </span>
@@ -364,7 +365,7 @@
                             </button>
                             <div class="dropdown-menu dropdown-menu-end">
                                 <!-- item-->
-                                <h6 class="dropdown-header">Welcome MR . Waled!</h6>
+                                <h6 class="dropdown-header">Welcome MR . Hamza!</h6>
                                 <!-- <a class="dropdown-item" href="#!">
                                     <i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i>
                                     <span class="align-middle">Profile</span>
@@ -564,47 +565,69 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 p-2 ">
-                            <h2>Add New Employee</h2>
+                            <h2>Departments</h2>
                         </div>
                         <div class="col-12 p-2">
-                            <div class="card h-100 m-0">
+                            <div class="card">
                                 <div class="card-body">
-                                    <form action="" class="h-100 m-0 row">
-                                        <div class="col-md-6 col-12 p-2">
-                                            <div>
-                                                <label for="Name" class="form-label">Name</label>
-                                                <input type="text" class="form-control" id="Name"
-                                                    placeholder="Name">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12 p-2">
-                                            <label class="form-label">permsion</label>
-                                            <select class="js-example-basic-single" name="state">
-                                                <option value="Super Admin">Super Admin</option>
-                                                <option value="Admin">Admin</option>
-                                                <option value="HR">HR</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-6 col-12 p-2">
-                                            <div>
-                                                <label for="Phone" class="form-label"> Phone</label>
-                                                <input type="number" class="form-control" id="Phone"
-                                                    placeholder="xxxxxxxxxxxxx">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12 p-2">
-                                            <div>
-                                                <label for="email" class="form-label">Email</label>
-                                                <input type="email" class="form-control" id="email"
-                                                    placeholder="ex:mail@mail.com">
-                                            </div>
-                                        </div>
-                                        <div class="col-12 p-2 d-flex justify-content-end mt-auto">
-                                            <button class="btn btn-success fs-7 fw-medium" type="submit">
-                                                Save
-                                            </button>
-                                        </div>
-                                    </form>
+                                    <table id="sectionTable"
+                                        class="table table-bordered dt-responsive nowrap table-striped align-middle"
+                                        style="width:100%">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" style="width: 10px;">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input fs-15" type="checkbox"
+                                                            id="checkAll" value="option">
+                                                    </div>
+                                                </th>
+                                                <th>Image</th>
+                                                <th>Arabic Name</th>
+                                                <th>English Name</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input fs-15" type="checkbox"
+                                                            name="checkAll" value="option1">
+                                                    </div>
+                                                </td>
+                                                <td><img src="assets/images/sidebar/img-4.jpg" alt="Section Image 1"
+                                                        style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
+                                                </td>
+                                                <td>اسم القسم العربي 1</td>
+                                                <td>English Name 1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input fs-15" type="checkbox"
+                                                            name="checkAll" value="option2">
+                                                    </div>
+                                                </td>
+                                                <td><img src="assets/images/sidebar/img-4.jpg" alt="Section Image 2"
+                                                        style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
+                                                </td>
+                                                <td>اسم القسم العربي 2</td>
+                                                <td>English Name 2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input fs-15" type="checkbox"
+                                                            name="checkAll" value="option3">
+                                                    </div>
+                                                </td>
+                                                <td><img src="assets/images/sidebar/img-4.jpg" alt="Section Image 3"
+                                                        style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
+                                                </td>
+                                                <td>اسم القسم العربي 3</td>
+                                                <td>English Name 3</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -616,13 +639,13 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-6">
-                            <script>document.write(new Date().getFullYear())</script> © <a
-                                href="https://epalsolutions.com" target="_blank">Epal Solutions</a>
+                            <script>document.write(new Date().getFullYear())</script> © <a href="#!"
+                                target="_blank">delivery</a>
                         </div>
                         <div class="col-sm-6">
                             <div class="text-sm-end d-none d-sm-block">
-                                Design & Develop by <a href="https://epalsolutions.com" target="_blank">Epal
-                                    Solutions</a>
+                                Design & Develop by <a href="#!" target="_blank">delivery
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -652,7 +675,6 @@
     <script src="assets/libs/simplebar/simplebar.min.js"></script>
     <script src="assets/libs/node-waves/waves.min.js"></script>
     <script src="assets/libs/feather-icons/feather.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
     <!-- apexcharts -->
     <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
     <!-- App js -->
@@ -683,4 +705,5 @@
         $(".filepond-multiple").filepond({});
     </script>
 </body>
+
 </html>
