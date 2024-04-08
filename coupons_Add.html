@@ -4,10 +4,10 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Fans Food Dashboard</title>
+    <title>Epal Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Fans Food Admin & Dashboard" name="description" />
-    <meta content="Fans Food" name="author" />
+    <meta content="Epal Solutions Admin & Dashboard" name="description" />
+    <meta content="Epal Solutions" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/fav.svg">
     <!-- Layout config Js -->
@@ -334,8 +334,9 @@
                                             </div>
                                             <div class="my-3 text-center view-all">
                                                 <button type="button"
-                                                    class="btn btn-soft-success waves-effect waves-light">Load Old
-                                                    Messages <i class="ri-arrow-right-line align-middle"></i></button>
+                                                    class="btn btn-soft-success waves-effect waves-light">View
+                                                    All Messages <i
+                                                        class="ri-arrow-right-line align-middle"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -564,12 +565,12 @@
             <div class="page-content">
                 <div class="container-fluid">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                        <h4 class="mb-sm-0">Add New Restaurant</h4>
+                        <h4 class="mb-sm-0">Add New Coupon</h4>
                         <div class="page-title-right d-flex align-items-center gap-3 flex-wrap">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="index.html"> Dashboard </a></li>
-                                <li class="breadcrumb-item"><a href="restaurants.html"> Restaurants </a></li>
-                                <li class="breadcrumb-item active">Add New Restaurant</li>
+                                <li class="breadcrumb-item"><a href="coupons.html"> Coupons </a></li>
+                                <li class="breadcrumb-item active">Add New Coupon</li>
                             </ol>
                         </div>
                     </div>
@@ -578,71 +579,28 @@
                             <form action="" class="h-100 m-0 row">
                                 <div class="col-md-6 col-lg-4 col-12 p-2">
                                     <div>
-                                        <label for="ArabicName" class="form-label">Arabic Name</label>
-                                        <input type="text" class="form-control" id="ArabicName" placeholder="Arabic Name">
+                                        <label for="Name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="Name" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-12 p-2">
+                                    <label class="form-label">Type</label>
+                                    <select class="form-control" id="Type">
+                                        <option value="percentage">Percentage</option>
+                                        <option value="value">Value</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-12 p-2">
+                                    <div>
+                                        <label for="MinValue" class="form-label">Minimum Value</label>
+                                        <input type="number" class="form-control" id="MinValue" placeholder="Minimum Value">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-4 col-12 p-2">
                                     <div>
-                                        <label for="EnglishName" class="form-label">English Name</label>
-                                        <input type="text" class="form-control" id="EnglishName" placeholder="English Name">
+                                        <label for="MaxValue" class="form-label">Maximum Value</label>
+                                        <input type="number" class="form-control" id="MaxValue" placeholder="Maximum Value">
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-12 p-2">
-                                    <div>
-                                        <label for="Image" class="form-label">Image</label>
-                                        <input type="file" class="form-control" id="Image">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-12 p-2">
-                                    <div>
-                                        <label for="BannerImage" class="form-label">Banner Image</label>
-                                        <input type="file" class="form-control" id="BannerImage">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-12 p-2">
-                                    <label class="form-label">Is it a banner?</label>
-                                    <select class="form-control" id="IsBanner">
-                                        <option value="Yes">Yes</option>
-                                        <option value="No">No</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-12 p-2">
-                                    <label class="form-label">Preparation Time</label>
-                                    <input type="text" class="form-control" id="PreparationTime" placeholder="Preparation Time">
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-12 p-2">
-                                    <label class="form-label">Minimum Order Amount</label>
-                                    <input type="number" class="form-control" id="MinimumOrderAmount" placeholder="Minimum Order Amount">
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-12 p-2">
-                                    <label class="form-label">Accepts Visa?</label>
-                                    <select class="form-control" id="AcceptsVisa">
-                                        <option value="Yes">Yes</option>
-                                        <option value="No">No</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-12 p-2">
-                                    <label class="form-label">Accepts Cash?</label>
-                                    <select class="form-control" id="AcceptsCash">
-                                        <option value="Yes">Yes</option>
-                                        <option value="No">No</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-12 p-2">
-                                    <label class="form-label">Working Hours</label>
-                                    <input type="text" class="form-control" id="WorkingHours" placeholder="Working Hours">
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-12 p-2">
-                                    <label class="form-label">Status</label>
-                                    <select class="form-control" id="Status">
-                                        <option value="Open">Open</option>
-                                        <option value="Closed">Closed</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-12 p-2">
-                                    <label class="form-label">Phone Number</label>
-                                    <input type="tel" class="form-control" id="PhoneNumber" placeholder="Phone Number">
                                 </div>
                                 <div class="col-12 p-2 d-flex justify-content-end mt-auto">
                                     <button class="btn btn-success fs-7 fw-medium" type="submit">
@@ -660,15 +618,15 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-6">
-                            <script>document.write(new Date().getFullYear())</script> © <a href="#!"
-                                target="_blank">Fans Food</a>
+                            <script>document.write(new Date().getFullYear())</script> © <a
+                                href="https://epalsolutions.com" target="_blank">Epal Solutions</a>
                         </div>
-                        <!-- <div class="col-sm-6">
+                        <div class="col-sm-6">
                             <div class="text-sm-end d-none d-sm-block">
-                                Design & Develop by <a href="#!" target="_blank">Fans Food
-                                </a>
+                                Design & Develop by <a href="https://epalsolutions.com" target="_blank">Epal
+                                    Solutions</a>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </footer>
@@ -696,6 +654,7 @@
     <script src="assets/libs/simplebar/simplebar.min.js"></script>
     <script src="assets/libs/node-waves/waves.min.js"></script>
     <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
     <!-- apexcharts -->
     <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
     <!-- App js -->
