@@ -31,7 +31,6 @@
     <link rel="stylesheet" href="assets/css/filepond.min.css">
 </head>
 
-
 <body>
     <!-- Begin page -->
     <div id="layout-wrapper">
@@ -564,10 +563,16 @@
         <div class="main-content">
             <div class="page-content">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 p-2 ">
-                            <h2>Theme Customizer</h2>
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">Theme Customizer</h4>
+                        <div class="page-title-right d-flex align-items-center gap-3 flex-wrap">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="index.html"> Dashboard </a></li>
+                                <li class="breadcrumb-item active">Theme Customizer</li>
+                            </ol>
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col-12 p-2">
                             <div class="card p-4 m-0 h-100">
                                 <h6 class="mb-0 fw-semibold text-uppercase">Dashboard Brand</h6>
@@ -911,11 +916,9 @@
                                         </div>
                                         <h5 class="fs-13 text-center mt-2">Dark</h5>
                                     </div>
-                             
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-lg-4 col-m-6 col-12 p-2">
                             <div class="card p-4 m-0 h-100">
                                 <h6 class=" fw-semibold text-uppercase">Sidebar Visibility</h6>
@@ -1310,7 +1313,6 @@
                                 </div>
                             </div>
                         </div>
-                    
                         <div class="col-lg-4 col-m-6 col-12 p-2">
                             <div class="card p-4 m-0 h-100">
                                 <h6 class=" fw-semibold text-uppercase">Preloader</h6>
@@ -1388,35 +1390,34 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 p-2">
-                    <div class="offcanvas-footer pb-3 text-center">
-                        <button type="button" class="btn  btn-info w-100" id="reset-layout">Reset</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Page-content -->
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6">
-                    <script>document.write(new Date().getFullYear())</script> © <a href="#!"
-                        target="_blank">Fans Food</a>
-                </div>
-                <div class="col-sm-6">
-                    <div class="text-sm-end d-none d-sm-block">
-                        Design & Develop by <a href="#!" target="_blank">Fans Food
-                        </a>
+                        <div class="col-12 p-2">
+                            <div class="offcanvas-footer pb-3 text-center">
+                                <button type="button" class="btn  btn-info w-100" id="reset-layout">Reset</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- End Page-content -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear())</script> © <a href="#!"
+                                target="_blank">Fans
+                                Food</a>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-end d-none d-sm-block">
+                                Design & Develop by <a href="#!" target="_blank">Fans Food
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
-    </footer>
-    </div>
-    <!-- end main content-->
+        <!-- end main content-->
     </div>
     <!--start back-to-top-->
     <button onclick="topFunction()" class="btn btn-danger btn-icon" id="back-to-top">

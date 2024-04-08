@@ -563,142 +563,141 @@
         <div class="main-content">
             <div class="page-content">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 p-2 ">
-                            <h2>Products</h2>
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">Products</h4>
+                        <div class="page-title-right d-flex align-items-center gap-3 flex-wrap">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="index.html"> Dashboard </a></li>
+                                <li class="breadcrumb-item active">Products</li>
+                            </ol>
                         </div>
-
-                        <div class="col-12 p-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <table id="productTable"
-                                        class="table table-bordered dt-responsive nowrap table-striped align-middle"
-                                        style="width:100%">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col" style="width: 10px;">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox"
-                                                            id="checkAll" value="option">
-                                                    </div>
-                                                </th>
-                                                <th>Image</th>
-                                                <th>Arabic Name</th>
-                                                <th>English Name</th>
-                                                <th>Arabic Description</th>
-                                                <th>English Description</th>
-                                                <th>Price</th>
-                                                <th>Discount</th>
-                                                <th>Points</th>
-                                                <th>Items</th>
-                                                <th>Additions</th>
-                                                <th>Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox"
-                                                            name="checkAll" value="option1">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <img src="assets/images/sidebar/img-4.jpg" alt="Section Image 3"
-                                                        style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
-                                                </td>
-                                                <td>اسم المنتج العربي 1</td>
-                                                <td>Product Name 1</td>
-                                                <td>وصف المنتج العربي 1</td>
-                                                <td>Product Description 1</td>
-                                                <td>$20</td>
-                                                <td>10%</td>
-                                                <td>50</td>
-                                                <td><button class="btn btn-outline-info">View Items</button></td>
-                                                <td><button class="btn btn-outline-info">View Additions</button></td>
-                                                <td>
-                                                    <!-- <button class="btnn bttn-success">
-                                                        <i class="ri-eye-fill fs-16"></i>
-                                                    </button> -->
-                                                    <button class="btnn bttn-dark">
-                                                        <i class="ri-pencil-fill fs-16"></i>
-                                                    </button>
-                                                    <button class="btnn bttn-danger">
-                                                        <i class="ri-delete-bin-fill fs-16"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox"
-                                                            name="checkAll" value="option2">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <img src="assets/images/sidebar/img-4.jpg" alt="Section Image 3"
-                                                        style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
-                                                </td>
-                                                <td>اسم المنتج العربي 2</td>
-                                                <td>Product Name 2</td>
-                                                <td>وصف المنتج العربي 2</td>
-                                                <td>Product Description 2</td>
-                                                <td>$30</td>
-                                                <td>15%</td>
-                                                <td>70</td>
-                                                <td><button class="btn btn-outline-info">View Items</button></td>
-                                                <td><button class="btn btn-outline-info">View Additions</button></td>
-                                                <td>
-                                                    <!-- <button class="btnn bttn-success">
-                                                        <i class="ri-eye-fill fs-16"></i>
-                                                    </button> -->
-                                                    <button class="btnn bttn-dark">
-                                                        <i class="ri-pencil-fill fs-16"></i>
-                                                    </button>
-                                                    <button class="btnn bttn-danger">
-                                                        <i class="ri-delete-bin-fill fs-16"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox"
-                                                            name="checkAll" value="option3">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <img src="assets/images/sidebar/img-4.jpg" alt="Section Image 3"
-                                                        style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
-                                                </td>
-                                                <td>اسم المنتج العربي 3</td>
-                                                <td>Product Name 3</td>
-                                                <td>وصف المنتج العربي 3</td>
-                                                <td>Product Description 3</td>
-                                                <td>$25</td>
-                                                <td>20%</td>
-                                                <td>60</td>
-                                                <td><button class="btn btn-outline-info">View Items</button></td>
-                                                <td><button class="btn btn-outline-info">View Additions</button></td>
-                                                <td>
-                                                    <!-- <button class="btnn bttn-success">
-                                                        <i class="ri-eye-fill fs-16"></i>
-                                                    </button> -->
-                                                    <button class="btnn bttn-dark">
-                                                        <i class="ri-pencil-fill fs-16"></i>
-                                                    </button>
-                                                    <button class="btnn bttn-danger">
-                                                        <i class="ri-delete-bin-fill fs-16"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="productTable"
+                                class="table table-bordered dt-responsive nowrap table-striped align-middle"
+                                style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" style="width: 10px;">
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox"
+                                                    id="checkAll" value="option">
+                                            </div>
+                                        </th>
+                                        <th>Image</th>
+                                        <th>Arabic Name</th>
+                                        <th>English Name</th>
+                                        <th>Arabic Description</th>
+                                        <th>English Description</th>
+                                        <th>Price</th>
+                                        <th>Discount</th>
+                                        <th>Points</th>
+                                        <th>Items</th>
+                                        <th>Additions</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox"
+                                                    name="checkAll" value="option1">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <img src="assets/images/sidebar/img-4.jpg" alt="Section Image 3"
+                                                style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
+                                        </td>
+                                        <td>اسم المنتج العربي 1</td>
+                                        <td>Product Name 1</td>
+                                        <td>وصف المنتج العربي 1</td>
+                                        <td>Product Description 1</td>
+                                        <td>$20</td>
+                                        <td>10%</td>
+                                        <td>50</td>
+                                        <td><button class="btn btn-outline-info">View Items</button></td>
+                                        <td><button class="btn btn-outline-info">View Additions</button></td>
+                                        <td>
+                                            <!-- <button class="btnn bttn-success">
+                                                <i class="ri-eye-fill fs-16"></i>
+                                            </button> -->
+                                            <button class="btnn bttn-dark">
+                                                <i class="ri-pencil-fill fs-16"></i>
+                                            </button>
+                                            <button class="btnn bttn-danger">
+                                                <i class="ri-delete-bin-fill fs-16"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox"
+                                                    name="checkAll" value="option2">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <img src="assets/images/sidebar/img-4.jpg" alt="Section Image 3"
+                                                style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
+                                        </td>
+                                        <td>اسم المنتج العربي 2</td>
+                                        <td>Product Name 2</td>
+                                        <td>وصف المنتج العربي 2</td>
+                                        <td>Product Description 2</td>
+                                        <td>$30</td>
+                                        <td>15%</td>
+                                        <td>70</td>
+                                        <td><button class="btn btn-outline-info">View Items</button></td>
+                                        <td><button class="btn btn-outline-info">View Additions</button></td>
+                                        <td>
+                                            <!-- <button class="btnn bttn-success">
+                                                <i class="ri-eye-fill fs-16"></i>
+                                            </button> -->
+                                            <button class="btnn bttn-dark">
+                                                <i class="ri-pencil-fill fs-16"></i>
+                                            </button>
+                                            <button class="btnn bttn-danger">
+                                                <i class="ri-delete-bin-fill fs-16"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox"
+                                                    name="checkAll" value="option3">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <img src="assets/images/sidebar/img-4.jpg" alt="Section Image 3"
+                                                style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
+                                        </td>
+                                        <td>اسم المنتج العربي 3</td>
+                                        <td>Product Name 3</td>
+                                        <td>وصف المنتج العربي 3</td>
+                                        <td>Product Description 3</td>
+                                        <td>$25</td>
+                                        <td>20%</td>
+                                        <td>60</td>
+                                        <td><button class="btn btn-outline-info">View Items</button></td>
+                                        <td><button class="btn btn-outline-info">View Additions</button></td>
+                                        <td>
+                                            <!-- <button class="btnn bttn-success">
+                                                <i class="ri-eye-fill fs-16"></i>
+                                            </button> -->
+                                            <button class="btnn bttn-dark">
+                                                <i class="ri-pencil-fill fs-16"></i>
+                                            </button>
+                                            <button class="btnn bttn-danger">
+                                                <i class="ri-delete-bin-fill fs-16"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-
-
                     </div>
                 </div>
             </div>

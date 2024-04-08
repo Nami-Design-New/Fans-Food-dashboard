@@ -563,100 +563,104 @@
         <div class="main-content">
             <div class="page-content">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 p-2 ">
-                            <h2>Ratings</h2>
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">Ratings</h4>
+                        <div class="page-title-right d-flex align-items-center gap-3 flex-wrap">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="index.html"> Dashboard </a></li>
+                                <li class="breadcrumb-item active">Ratings</li>
+                            </ol>
                         </div>
-                      
-                        <div class="col-12 p-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <table id="ratingsTable"
-                                        class="table table-bordered dt-responsive nowrap table-striped align-middle"
-                                        style="width:100%">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col" style="width: 10px;">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox" id="checkAll" value="option">
-                                                    </div>
-                                                </th>
-                                                <th>Customer Data</th>
-                                                <th>Rating</th>
-                                                <th>Comment</th>
-                                                <th>Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option1">
-                                                    </div>
-                                                </td>
-                                                <td>John Doe</td>
-                                                <td>4.5</td>
-                                                <td>Great service and delicious food!</td>
-                                                 <td>
-                                                    <!-- <button class="btnn bttn-success">
-                                                        <i class="ri-eye-fill fs-16"></i>
-                                                    </button> -->
-                                                    <!-- <button class="btnn bttn-dark">
-                                                        <i class="ri-pencil-fill fs-16"></i>
-                                                    </button> -->
-                                                    <button class="btnn bttn-danger">
-                                                        <i class="ri-delete-bin-fill fs-16"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option2">
-                                                    </div>
-                                                </td>
-                                                <td>Alice Smith</td>
-                                                <td>5.0</td>
-                                                <td>Amazing experience! Highly recommended.</td>
-                                                 <td>
-                                                    <!-- <button class="btnn bttn-success">
-                                                        <i class="ri-eye-fill fs-16"></i>
-                                                    </button> -->
-                                                    <!-- <button class="btnn bttn-dark">
-                                                        <i class="ri-pencil-fill fs-16"></i>
-                                                    </button> -->
-                                                    <button class="btnn bttn-danger">
-                                                        <i class="ri-delete-bin-fill fs-16"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option3">
-                                                    </div>
-                                                </td>
-                                                <td>Michael Johnson</td>
-                                                <td>4.0</td>
-                                                <td>Good food, but Fans Food was a bit slow.</td>
-                                                 <td>
-                                                    <!-- <button class="btnn bttn-success">
-                                                        <i class="ri-eye-fill fs-16"></i>
-                                                    </button> -->
-                                                    <!-- <button class="btnn bttn-dark">
-                                                        <i class="ri-pencil-fill fs-16"></i>
-                                                    </button> -->
-                                                    <button class="btnn bttn-danger">
-                                                        <i class="ri-delete-bin-fill fs-16"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="ratingsTable"
+                                class="table table-bordered dt-responsive nowrap table-striped align-middle"
+                                style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" style="width: 10px;">
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox"
+                                                    id="checkAll" value="option">
+                                            </div>
+                                        </th>
+                                        <th>Customer Data</th>
+                                        <th>Rating</th>
+                                        <th>Comment</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox"
+                                                    name="checkAll" value="option1">
+                                            </div>
+                                        </td>
+                                        <td>John Doe</td>
+                                        <td>4.5</td>
+                                        <td>Great service and delicious food!</td>
+                                        <td>
+                                            <!-- <button class="btnn bttn-success">
+                                                <i class="ri-eye-fill fs-16"></i>
+                                            </button> -->
+                                            <!-- <button class="btnn bttn-dark">
+                                                <i class="ri-pencil-fill fs-16"></i>
+                                            </button> -->
+                                            <button class="btnn bttn-danger">
+                                                <i class="ri-delete-bin-fill fs-16"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox"
+                                                    name="checkAll" value="option2">
+                                            </div>
+                                        </td>
+                                        <td>Alice Smith</td>
+                                        <td>5.0</td>
+                                        <td>Amazing experience! Highly recommended.</td>
+                                        <td>
+                                            <!-- <button class="btnn bttn-success">
+                                                <i class="ri-eye-fill fs-16"></i>
+                                            </button> -->
+                                            <!-- <button class="btnn bttn-dark">
+                                                <i class="ri-pencil-fill fs-16"></i>
+                                            </button> -->
+                                            <button class="btnn bttn-danger">
+                                                <i class="ri-delete-bin-fill fs-16"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox"
+                                                    name="checkAll" value="option3">
+                                            </div>
+                                        </td>
+                                        <td>Michael Johnson</td>
+                                        <td>4.0</td>
+                                        <td>Good food, but Fans Food was a bit slow.</td>
+                                        <td>
+                                            <!-- <button class="btnn bttn-success">
+                                                <i class="ri-eye-fill fs-16"></i>
+                                            </button> -->
+                                            <!-- <button class="btnn bttn-dark">
+                                                <i class="ri-pencil-fill fs-16"></i>
+                                            </button> -->
+                                            <button class="btnn bttn-danger">
+                                                <i class="ri-delete-bin-fill fs-16"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                        
                     </div>
                 </div>
             </div>

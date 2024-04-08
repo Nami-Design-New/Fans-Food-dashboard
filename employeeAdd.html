@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en" data-appColor="default" data-layout="vertical" data-topbar="light" data-sidebar="light"
     data-sidebar-size="lg" data-sidebar-image="none" data-preloader="enable" dir="ltr">
+
 <head>
     <meta charset="utf-8" />
     <title>Epal Dashboard</title>
@@ -29,6 +30,7 @@
     <!-- filepond -->
     <link rel="stylesheet" href="assets/css/filepond.min.css">
 </head>
+
 <body>
     <!-- Begin page -->
     <div id="layout-wrapper">
@@ -562,51 +564,53 @@
         <div class="main-content">
             <div class="page-content">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 p-2 ">
-                            <h2>Add New Employee</h2>
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">Employees</h4>
+                        <div class="page-title-right d-flex align-items-center gap-3 flex-wrap">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="index.html"> Dashboard </a></li>
+                                <li class="breadcrumb-item"><a href="employees.html"> Employees </a></li>
+                                <li class="breadcrumb-item active">Add New Employee</li>
+                            </ol>
                         </div>
-                        <div class="col-12 p-2">
-                            <div class="card h-100 m-0">
-                                <div class="card-body">
-                                    <form action="" class="h-100 m-0 row">
-                                        <div class="col-md-6 col-12 p-2">
-                                            <div>
-                                                <label for="Name" class="form-label">Name</label>
-                                                <input type="text" class="form-control" id="Name"
-                                                    placeholder="Name">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12 p-2">
-                                            <label class="form-label">permsion</label>
-                                            <select class="js-example-basic-single" name="state">
-                                                <option value="Super Admin">Super Admin</option>
-                                                <option value="Admin">Admin</option>
-                                                <option value="HR">HR</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-6 col-12 p-2">
-                                            <div>
-                                                <label for="Phone" class="form-label"> Phone</label>
-                                                <input type="number" class="form-control" id="Phone"
-                                                    placeholder="xxxxxxxxxxxxx">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12 p-2">
-                                            <div>
-                                                <label for="email" class="form-label">Email</label>
-                                                <input type="email" class="form-control" id="email"
-                                                    placeholder="ex:mail@mail.com">
-                                            </div>
-                                        </div>
-                                        <div class="col-12 p-2 d-flex justify-content-end mt-auto">
-                                            <button class="btn btn-success fs-7 fw-medium" type="submit">
-                                                Save
-                                            </button>
-                                        </div>
-                                    </form>
+                    </div>
+                    <div class="card h-100 m-0">
+                        <div class="card-body">
+                            <form action="" class="h-100 m-0 row">
+                                <div class="col-md-6 col-12 p-2">
+                                    <div>
+                                        <label for="Name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="Name" placeholder="Name">
+                                    </div>
                                 </div>
-                            </div>
+                                <div class="col-md-6 col-12 p-2">
+                                    <label class="form-label">permsion</label>
+                                    <select class="js-example-basic-single" name="state">
+                                        <option value="Super Admin">Super Admin</option>
+                                        <option value="Admin">Admin</option>
+                                        <option value="HR">HR</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 col-12 p-2">
+                                    <div>
+                                        <label for="Phone" class="form-label"> Phone</label>
+                                        <input type="number" class="form-control" id="Phone"
+                                            placeholder="xxxxxxxxxxxxx">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12 p-2">
+                                    <div>
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email"
+                                            placeholder="ex:mail@mail.com">
+                                    </div>
+                                </div>
+                                <div class="col-12 p-2 d-flex justify-content-end mt-auto">
+                                    <button class="btn btn-success fs-7 fw-medium" type="submit">
+                                        Save
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -683,4 +687,5 @@
         $(".filepond-multiple").filepond({});
     </script>
 </body>
+
 </html>

@@ -563,88 +563,90 @@
         <div class="main-content">
             <div class="page-content">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 p-2 d-flex justify-content-between align-content-center">
-                            <h2>Employees</h2>
-                            <a href="employeeAdd.html" class="btn btn-soft-success">
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">Employees</h4>
+                        <div class="page-title-right d-flex align-items-center gap-3 flex-wrap">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="index.html"> Dashboard </a></li>
+                                <li class="breadcrumb-item active">Employees</li>
+                            </ol>
+                            <a href="employeeAdd.html" class="btn btn-success">
                                 <i class="ri-add-circle-line align-middle me-1"></i> Add New Employee
                             </a>
                         </div>
-                        <div class="col-12 p-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <table id="example"
-                                        class="table table-bordered dt-responsive nowrap table-striped align-middle"
-                                        style="width:100%">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col" style="width: 10px;">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox"
-                                                            id="checkAll" value="option">
-                                                    </div>
-                                                </th>
-                                                <th data-ordering="false">Name</th>
-                                                <th data-ordering="false">Role</th>
-                                                <th data-ordering="false">Phone</th>
-                                                <th data-ordering="false">Email</th>
-                                                <th data-ordering="false">Date created </th>
-                                                <th data-ordering="false">Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox"
-                                                            name="checkAll" value="option1">
-                                                    </div>
-                                                </th>
-                                                <td>Hamza Mahmoud</td>
-                                                <td>Super Admin</td>
-                                                <td>0123456789</td>
-                                                <td>email@email.com</td>
-                                                <td>01/02/2024 03:33 AM</td>
-                                                <td>
-                                                    <!-- <button class="btnn bttn-success">
-                                                        <i class="ri-eye-fill fs-16"></i>
-                                                    </button> -->
-                                                    <button class="btnn bttn-dark">
-                                                        <i class="ri-pencil-fill fs-16"></i>
-                                                    </button>
-                                                    <button class="btnn bttn-danger">
-                                                        <i class="ri-delete-bin-fill fs-16"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox"
-                                                            name="checkAll" value="option1">
-                                                    </div>
-                                                </th>
-                                                <td>Mahmoud Elkomy</td>
-                                                <td>HR</td>
-                                                <td>0123456789</td>
-                                                <td>email@email.com</td>
-                                                <td>01/02/2024 03:33 AM</td>
-                                                <td>
-                                                    <!-- <button class="btnn bttn-success">
-                                                        <i class="ri-eye-fill fs-16"></i>
-                                                    </button> -->
-                                                    <button class="btnn bttn-dark">
-                                                        <i class="ri-pencil-fill fs-16"></i>
-                                                    </button>
-                                                    <button class="btnn bttn-danger">
-                                                        <i class="ri-delete-bin-fill fs-16"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="example"
+                                class="table table-bordered dt-responsive nowrap table-striped align-middle"
+                                style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" style="width: 10px;">
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox" id="checkAll"
+                                                    value="option">
+                                            </div>
+                                        </th>
+                                        <th data-ordering="false">Name</th>
+                                        <th data-ordering="false">Role</th>
+                                        <th data-ordering="false">Phone</th>
+                                        <th data-ordering="false">Email</th>
+                                        <th data-ordering="false">Date created </th>
+                                        <th data-ordering="false">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox" name="checkAll"
+                                                    value="option1">
+                                            </div>
+                                        </th>
+                                        <td>Hamza Mahmoud</td>
+                                        <td>Super Admin</td>
+                                        <td>0123456789</td>
+                                        <td>email@email.com</td>
+                                        <td>01/02/2024 03:33 AM</td>
+                                        <td>
+                                            <!-- <button class="btnn bttn-success">
+                                                <i class="ri-eye-fill fs-16"></i>
+                                            </button> -->
+                                            <button class="btnn bttn-dark">
+                                                <i class="ri-pencil-fill fs-16"></i>
+                                            </button>
+                                            <button class="btnn bttn-danger">
+                                                <i class="ri-delete-bin-fill fs-16"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox" name="checkAll"
+                                                    value="option1">
+                                            </div>
+                                        </th>
+                                        <td>Mahmoud Elkomy</td>
+                                        <td>HR</td>
+                                        <td>0123456789</td>
+                                        <td>email@email.com</td>
+                                        <td>01/02/2024 03:33 AM</td>
+                                        <td>
+                                            <!-- <button class="btnn bttn-success">
+                                                <i class="ri-eye-fill fs-16"></i>
+                                            </button> -->
+                                            <button class="btnn bttn-dark">
+                                                <i class="ri-pencil-fill fs-16"></i>
+                                            </button>
+                                            <button class="btnn bttn-danger">
+                                                <i class="ri-delete-bin-fill fs-16"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>

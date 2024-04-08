@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en" data-appColor="default" data-layout="vertical" data-topbar="light" data-sidebar="light"
     data-sidebar-size="lg" data-sidebar-image="none" data-preloader="enable" dir="ltr">
-
 <head>
     <meta charset="utf-8" />
     <title>Fans Food Dashboard</title>
@@ -30,7 +29,6 @@
     <!-- filepond -->
     <link rel="stylesheet" href="assets/css/filepond.min.css">
 </head>
-
 <body>
     <!-- Begin page -->
     <div id="layout-wrapper">
@@ -563,131 +561,136 @@
         <div class="main-content">
             <div class="page-content">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 p-2 ">
-                            <h2>Users</h2>
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">Users</h4>
+                        <div class="page-title-right d-flex align-items-center gap-3 flex-wrap">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="index.html"> Dashboard </a></li>
+                                <li class="breadcrumb-item active">Users</li>
+                            </ol>
                         </div>
-                        Here's the provided HTML with real data for three users:
-
-                        ```html
-                        <div class="col-12 p-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <table id="example"
-                                        class="table table-bordered dt-responsive nowrap table-striped align-middle"
-                                        style="width:100%">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col" style="width: 10px;">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox" id="checkAll" value="option">
-                                                    </div>
-                                                </th>
-                                                <th>Name</th>
-                                                <th>Email</th>
-                                                <th>Image</th>
-                                                <th>Phone Number</th>
-                                                <th>Date of Birth</th>
-                                                <th>Team Name</th>
-                                                <th>International Team Name</th>
-                                                <th>Gender</th>
-                                                <th>Wallet</th>
-                                                <th>Points</th>
-                                                <th>Blocked/Unblocked</th>
-                                                <th>Orders</th>
-                                                <th>Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option1">
-                                                    </div>
-                                                </th>
-                                                <td>Hamza Mahmoud</td>
-                                                <td>hamza@example.com</td>
-                                                <td><img src="assets/images/users/avatar-1.jpg" style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;"></td>
-                                                <td>123456789</td>
-                                                <td>1985-03-15</td>
-                                                <td>Development Team</td>
-                                                <td>International Developers</td>
-                                                <td>Male</td>
-                                                <td>$500</td>
-                                                <td>200</td>
-                                                <td><button class="btn btn-outline-dark">Block</button></td>
-                                                <td><button class="btn btn-info">Show Orders</button></td>
-                                                <td>
-                                                    <button class="btn btn-dark">
-                                                        <i class="ri-pencil-fill fs-16"></i>
-                                                    </button>
-                                                    <button class="btn btn-danger">
-                                                        <i class="ri-delete-bin-fill fs-16"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option1">
-                                                    </div>
-                                                </th>
-                                                <td>Alice Smith</td>
-                                                <td>alice@example.com</td>
-                                                <td><img src="assets/images/users/avatar-2.jpg" style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;"></td>
-                                                <td>987654321</td>
-                                                <td>1990-05-20</td>
-                                                <td>Design Team</td>
-                                                <td>Global Designers</td>
-                                                <td>Female</td>
-                                                <td>$700</td>
-                                                <td>300</td>
-                                                <td><button class="btn btn-dark">Unblock</button></td>
-                                                <td><button class="btn btn-info">Show Orders</button></td>
-                                                <td>
-                                                    <button class="btn btn-dark">
-                                                        <i class="ri-pencil-fill fs-16"></i>
-                                                    </button>
-                                                    <button class="btn btn-danger">
-                                                        <i class="ri-delete-bin-fill fs-16"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">
-                                                    <div class="form-check">
-                                                        <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option1">
-                                                    </div>
-                                                </th>
-                                                <td>Michael Johnson</td>
-                                                <td>michael@example.com</td>
-                                                <td><img src="assets/images/users/avatar-3.jpg" style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;"></td>
-                                                <td>555666777</td>
-                                                <td>1988-10-10</td>
-                                                <td>Marketing Team</td>
-                                                <td>Global Marketers</td>
-                                                <td>Male</td>
-                                                <td>$1000</td>
-                                                <td>400</td>
-                                                <td><button class="btn btn-outline-dark">Block</button></td>
-                                                <td><button class="btn btn-info">Show Orders</button></td>
-                                                <td>
-                                                    <button class="btn btn-dark">
-                                                        <i class="ri-pencil-fill fs-16"></i>
-                                                    </button>
-                                                    <button class="btn btn-danger">
-                                                        <i class="ri-delete-bin-fill fs-16"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="example"
+                                class="table table-bordered dt-responsive nowrap table-striped align-middle"
+                                style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" style="width: 10px;">
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox" id="checkAll" value="option">
+                                            </div>
+                                        </th>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Image</th>
+                                        <th>Phone Number</th>
+                                        <th>Date of Birth</th>
+                                        <th>Team Name</th>
+                                        <th>International Team Name</th>
+                                        <th>Gender</th>
+                                        <th>Wallet</th>
+                                        <th>Points</th>
+                                        <th>Blocked/Unblocked</th>
+                                        <th>Orders</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option1">
+                                            </div>
+                                        </th>
+                                        <td>Hamza Mahmoud</td>
+                                        <td>hamza@example.com</td>
+                                        <td><img src="assets/images/users/avatar-1.jpg" style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;"></td>
+                                        <td>123456789</td>
+                                        <td>1985-03-15</td>
+                                        <td>Development Team</td>
+                                        <td>International Developers</td>
+                                        <td>Male</td>
+                                        <td>$500</td>
+                                        <td>200</td>
+                                        <td><button class="btn btn-outline-dark">Block</button></td>
+                                        <td><button class="btn btn-info">Show Orders</button></td>
+                                          <td>
+                                            <!-- <button class="btnn bttn-success">
+                                                <i class="ri-eye-fill fs-16"></i>
+                                            </button> -->
+                                            <!-- <button class="btnn bttn-dark">
+                                                <i class="ri-pencil-fill fs-16"></i>
+                                            </button> -->
+                                            <button class="btnn bttn-danger">
+                                                <i class="ri-delete-bin-fill fs-16"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option1">
+                                            </div>
+                                        </th>
+                                        <td>Alice Smith</td>
+                                        <td>alice@example.com</td>
+                                        <td><img src="assets/images/users/avatar-2.jpg" style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;"></td>
+                                        <td>987654321</td>
+                                        <td>1990-05-20</td>
+                                        <td>Design Team</td>
+                                        <td>Global Designers</td>
+                                        <td>Female</td>
+                                        <td>$700</td>
+                                        <td>300</td>
+                                        <td><button class="btn btn-dark">Unblock</button></td>
+                                        <td><button class="btn btn-info">Show Orders</button></td>
+                                          <td>
+                                            <!-- <button class="btnn bttn-success">
+                                                <i class="ri-eye-fill fs-16"></i>
+                                            </button> -->
+                                            <!-- <button class="btnn bttn-dark">
+                                                <i class="ri-pencil-fill fs-16"></i>
+                                            </button> -->
+                                            <button class="btnn bttn-danger">
+                                                <i class="ri-delete-bin-fill fs-16"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="form-check">
+                                                <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option1">
+                                            </div>
+                                        </th>
+                                        <td>Michael Johnson</td>
+                                        <td>michael@example.com</td>
+                                        <td><img src="assets/images/users/avatar-3.jpg" style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;"></td>
+                                        <td>555666777</td>
+                                        <td>1988-10-10</td>
+                                        <td>Marketing Team</td>
+                                        <td>Global Marketers</td>
+                                        <td>Male</td>
+                                        <td>$1000</td>
+                                        <td>400</td>
+                                        <td><button class="btn btn-outline-dark">Block</button></td>
+                                        <td><button class="btn btn-info">Show Orders</button></td>
+                                          <td>
+                                            <!-- <button class="btnn bttn-success">
+                                                <i class="ri-eye-fill fs-16"></i>
+                                            </button> -->
+                                            <!-- <button class="btnn bttn-dark">
+                                                <i class="ri-pencil-fill fs-16"></i>
+                                            </button> -->
+                                            <button class="btnn bttn-danger">
+                                                <i class="ri-delete-bin-fill fs-16"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                        ```
-                        
-                        This HTML code displays three users with their respective information. Feel free to customize it further as needed.
                     </div>
                 </div>
             </div>
@@ -762,5 +765,4 @@
         $(".filepond-multiple").filepond({});
     </script>
 </body>
-
 </html>
