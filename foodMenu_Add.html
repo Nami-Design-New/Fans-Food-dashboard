@@ -4,10 +4,10 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Epal Dashboard</title>
+    <title>Fans Food Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Epal Solutions Admin & Dashboard" name="description" />
-    <meta content="Epal Solutions" name="author" />
+    <meta content="Fans Food Admin & Dashboard" name="description" />
+    <meta content="Fans Food" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/fav.svg">
     <!-- Layout config Js -->
@@ -334,9 +334,8 @@
                                             </div>
                                             <div class="my-3 text-center view-all">
                                                 <button type="button"
-                                                    class="btn btn-soft-success waves-effect waves-light">View
-                                                    All Messages <i
-                                                        class="ri-arrow-right-line align-middle"></i></button>
+                                                    class="btn btn-soft-success waves-effect waves-light">Load Old
+                                                    Messages <i class="ri-arrow-right-line align-middle"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -358,7 +357,7 @@
                                     <img class="rounded-circle header-profile-user"
                                         src="assets/images/users/user-dummy-img.jpg" alt="Header Avatar">
                                     <span class="text-start ms-xl-2">
-                                        <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text"> MR . Waled
+                                        <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text"> MR . Hamza
                                         </span>
                                         <span class="d-none d-xl-block ms-1 fs-12 user-name-sub-text">Founder</span>
                                     </span>
@@ -366,7 +365,7 @@
                             </button>
                             <div class="dropdown-menu dropdown-menu-end">
                                 <!-- item-->
-                                <h6 class="dropdown-header">Welcome MR . Waled!</h6>
+                                <h6 class="dropdown-header">Welcome MR . Hamza!</h6>
                                 <!-- <a class="dropdown-item" href="#!">
                                     <i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i>
                                     <span class="align-middle">Profile</span>
@@ -565,44 +564,34 @@
             <div class="page-content">
                 <div class="container-fluid">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                        <h4 class="mb-sm-0">Employees</h4>
+                        <h4 class="mb-sm-0">Food Menu</h4>
                         <div class="page-title-right d-flex align-items-center gap-3 flex-wrap">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="index.html"> Dashboard </a></li>
-                                <li class="breadcrumb-item"><a href="employees.html"> Employees </a></li>
-                                <li class="breadcrumb-item active">Add New Employee</li>
+                                <li class="breadcrumb-item"><a href="foodMenu.html"> Food Menu </a></li>
+                                <li class="breadcrumb-item active"> Add New Item </li>
                             </ol>
                         </div>
                     </div>
-                    <div class="card h-100 m-0">
+                    <div class="card">
                         <div class="card-body">
                             <form action="" class="h-100 m-0 row">
-                                <div class="col-md-6 col-12 p-2">
+                                <div class="col-md-6 col-lg-4 col-12 p-2">
                                     <div>
-                                        <label for="Name" class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="Name" placeholder="Name">
+                                        <label for="Image" class="form-label">Image</label>
+                                        <input type="file" class="form-control" id="Image">
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-12 p-2">
-                                    <label class="form-label">permsion</label>
-                                    <select class="js-example-basic-single" name="state">
-                                        <option value="Super Admin">Super Admin</option>
-                                        <option value="Admin">Admin</option>
-                                        <option value="HR">HR</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 col-12 p-2">
+                                <div class="col-md-6 col-lg-4 col-12 p-2">
                                     <div>
-                                        <label for="Phone" class="form-label"> Phone</label>
-                                        <input type="number" class="form-control" id="Phone"
-                                            placeholder="xxxxxxxxxxxxx">
+                                        <label for="ArabicName" class="form-label">Arabic Name</label>
+                                        <input type="text" class="form-control" id="ArabicName" placeholder="Arabic Name">
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-12 p-2">
+                                <div class="col-md-6 col-lg-4 col-12 p-2">
                                     <div>
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email"
-                                            placeholder="ex:mail@mail.com">
+                                        <label for="EnglishName" class="form-label">English Name</label>
+                                        <input type="text" class="form-control" id="EnglishName" placeholder="English Name">
                                     </div>
                                 </div>
                                 <div class="col-12 p-2 d-flex justify-content-end mt-auto">
@@ -611,6 +600,7 @@
                                     </button>
                                 </div>
                             </form>
+                            
                         </div>
                     </div>
                 </div>
@@ -620,15 +610,15 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-6">
-                            <script>document.write(new Date().getFullYear())</script> © <a
-                                href="https://epalsolutions.com" target="_blank">Epal Solutions</a>
+                            <script>document.write(new Date().getFullYear())</script> © <a href="#!"
+                                target="_blank">Fans Food</a>
                         </div>
-                        <div class="col-sm-6">
+                        <!-- <div class="col-sm-6">
                             <div class="text-sm-end d-none d-sm-block">
-                                Design & Develop by <a href="https://epalsolutions.com" target="_blank">Epal
-                                    Solutions</a>
+                                Design & Develop by <a href="#!" target="_blank">Fans Food
+                                </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </footer>
@@ -656,7 +646,6 @@
     <script src="assets/libs/simplebar/simplebar.min.js"></script>
     <script src="assets/libs/node-waves/waves.min.js"></script>
     <script src="assets/libs/feather-icons/feather.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
     <!-- apexcharts -->
     <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
     <!-- App js -->

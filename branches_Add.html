@@ -564,102 +564,58 @@
             <div class="page-content">
                 <div class="container-fluid">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                        <h4 class="mb-sm-0">Add-ons</h4>
+                        <h4 class="mb-sm-0">Branches</h4>
                         <div class="page-title-right d-flex align-items-center gap-3 flex-wrap">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="index.html"> Dashboard </a></li>
-                                <li class="breadcrumb-item active">Add-ons</li>
+                                <li class="breadcrumb-item"><a href="branches.html"> Branches </a></li>
+                                <li class="breadcrumb-item active">Add New Branch</li>
                             </ol>
-                            <a href="add-ons_Add.html" class="btn btn-success">
-                                <i class="ri-add-circle-line align-middle me-1"></i> Add New add-on
-                            </a>
                         </div>
                     </div>
-
                     <div class="card">
                         <div class="card-body">
-                            <table id="addonTable"
-                                class="table table-bordered dt-responsive nowrap table-striped align-middle"
-                                style="width:100%">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" style="width: 10px;">
-                                            <div class="form-check">
-                                                <input class="form-check-input fs-15" type="checkbox" id="checkAll" value="option">
-                                            </div>
-                                        </th>
-                                        <th>Arabic Name</th>
-                                        <th>English Name</th>
-                                        <th>Price</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check">
-                                                <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option1">
-                                            </div>
-                                        </td>
-                                        <td>جبن</td>
-                                        <td>Cheese</td>
-                                        <td>$1.50</td>
-                                       <td>
-                                            <!-- <button class="btnn bttn-success">
-                                                <i class="ri-eye-fill fs-16"></i>
-                                            </button> -->
-                                            <button class="btnn bttn-dark">
-                                                <i class="ri-pencil-fill fs-16"></i>
-                                            </button>
-                                            <button class="btnn bttn-danger">
-                                                <i class="ri-delete-bin-fill fs-16"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check">
-                                                <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option2">
-                                            </div>
-                                        </td>
-                                        <td>زيتون</td>
-                                        <td>Olives</td>
-                                        <td>$1.00</td>
-                                       <td>
-                                            <!-- <button class="btnn bttn-success">
-                                                <i class="ri-eye-fill fs-16"></i>
-                                            </button> -->
-                                            <button class="btnn bttn-dark">
-                                                <i class="ri-pencil-fill fs-16"></i>
-                                            </button>
-                                            <button class="btnn bttn-danger">
-                                                <i class="ri-delete-bin-fill fs-16"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check">
-                                                <input class="form-check-input fs-15" type="checkbox" name="checkAll" value="option3">
-                                            </div>
-                                        </td>
-                                        <td>فلفل</td>
-                                        <td>Peppers</td>
-                                        <td>$0.75</td>
-                                       <td>
-                                            <!-- <button class="btnn bttn-success">
-                                                <i class="ri-eye-fill fs-16"></i>
-                                            </button> -->
-                                            <button class="btnn bttn-dark">
-                                                <i class="ri-pencil-fill fs-16"></i>
-                                            </button>
-                                            <button class="btnn bttn-danger">
-                                                <i class="ri-delete-bin-fill fs-16"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <form action="" class="h-100 m-0 row">
+                                <div class="col-md-6 col-lg-4 col-12 p-2">
+                                    <div>
+                                        <label for="Latitude" class="form-label">Latitude</label>
+                                        <input type="text" class="form-control" id="Latitude" placeholder="Latitude">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-12 p-2">
+                                    <div>
+                                        <label for="Longitude" class="form-label">Longitude</label>
+                                        <input type="text" class="form-control" id="Longitude" placeholder="Longitude">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-12 p-2">
+                                    <div>
+                                        <label for="Username" class="form-label">Username</label>
+                                        <input type="text" class="form-control" id="Username" placeholder="Username">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-12 p-2">
+                                    <div>
+                                        <label for="Password" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="Password"
+                                            placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-12 p-2">
+                                    <div>
+                                        <label for="Address" class="form-label">Address</label>
+                                        <input type="text" class="form-control" id="Address" placeholder="Address">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 p-2">
+                                    <div id="map"></div>
+                                </div>
+                                <div class="col-12 p-2 d-flex justify-content-end mt-auto">
+                                    <button class="btn btn-success fs-7 fw-medium" type="submit">
+                                        Save
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -733,6 +689,17 @@
     <script src="assets/js/filepond.min.js"></script>
     <script>
         $(".filepond-multiple").filepond({});
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN6CvEFUVrJsteNDeuIvEYzsY1eRI4zr4&callback=initMap" async defer></script>
+
+    <script>
+        function initMap() {
+            var mapOptions = {
+                center: { lat: -34.397, lng: 150.644 }, // Initial map center coordinates
+                zoom: 8 // Initial zoom level
+            };
+            var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+        }
     </script>
 </body>
 

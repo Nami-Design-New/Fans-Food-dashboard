@@ -379,4 +379,9 @@
 
 .navbar-menu .navbar-nav .nav-link {
   text-transform: capitalize;
+}
+
+#map {
+  height: 400px;
+  border-radius: 16px;
 }/*# sourceMappingURL=custom.css.map */
