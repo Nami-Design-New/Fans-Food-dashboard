@@ -9,10 +9,3 @@
 *{
   direction: rtl;
 }
-@font-face {
-    font-family: "kaff_regular";
-    src: url("../fonts/29ltkaff-regular.ttf");
-  }
-  * {
-    font-family: "kaff_regular", sans-serif;
-  }
