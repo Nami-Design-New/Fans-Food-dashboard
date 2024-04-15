@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en" data-appColor="default" data-layout="vertical" data-topbar="light" data-sidebar="light"
     data-sidebar-size="lg" data-sidebar-image="none" data-preloader="enable" dir="ltr">
-
 <head>
     <meta charset="utf-8" />
     <title>Fans Food Dashboard</title>
@@ -29,7 +28,6 @@
     <link rel="stylesheet" href="assets/css/custom.css">
 
 </head>
-
 <body>
     <!-- Begin page -->
     <div id="layout-wrapper">
@@ -568,20 +566,18 @@
             <div class="page-content">
                 <div class="container-fluid">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                        <h4 class="mb-sm-0">Products</h4>
+                        <h4 class="mb-sm-0">Cairo Clubs</h4>
                         <div class="page-title-right d-flex align-items-center gap-3 flex-wrap">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="index.html"> Dashboard </a></li>
-                                <li class="breadcrumb-item active">Products</li>
+                                <li class="breadcrumb-item active">Cairo Clubs</li>
                             </ol>
-                            <a href="products_Add.html" class="btn btn-success">
-                                <i class="ri-add-circle-line align-middle me-1"></i> Add New Product
-                            </a>
+
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <table id="productTable"
+                            <table id="cityTable"
                                 class="table table-bordered dt-responsive nowrap table-striped align-middle"
                                 style="width:100%">
                                 <thead>
@@ -592,16 +588,8 @@
                                                     value="option">
                                             </div>
                                         </th>
-                                        <th>Image</th>
                                         <th>Arabic Name</th>
                                         <th>English Name</th>
-                                        <th>Arabic Description</th>
-                                        <th>English Description</th>
-                                        <th>Price</th>
-                                        <th>Discount</th>
-                                        <th>Points</th>
-                                        <th>Items</th>
-                                        <th>Additions</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -613,19 +601,8 @@
                                                     value="option1">
                                             </div>
                                         </td>
-                                        <td>
-                                            <img src="assets/images/sidebar/img-4.jpg" alt="Section Image 3"
-                                                style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
-                                        </td>
-                                        <td>اسم المنتج العربي 1</td>
-                                        <td>Product Name 1</td>
-                                        <td>وصف المنتج العربي 1</td>
-                                        <td>Product Description 1</td>
-                                        <td>$20</td>
-                                        <td>10%</td>
-                                        <td><input style="max-width: 50px; margin: 0 auto; text-align: center; outline: 0; padding: 7px; color: #299cdb; border: #299cdb 1px solid; border-radius: 3px;" placeholder="50" type="number"></td>
-                                        <td><a href="add-ons.html"><button class="btn btn-outline-info">View Items</button></a></td>
-                                        <td><a href="add-ons.html"><button class="btn btn-outline-info">View Additions</button></a></td>
+                                        <td>وادي دجلة</td>
+                                        <td>wadi degla</td>
                                         <td>
                                             <!-- <button class="btnn bttn-success">
                                                 <i class="ri-eye-fill fs-16"></i>
@@ -645,19 +622,9 @@
                                                     value="option2">
                                             </div>
                                         </td>
-                                        <td>
-                                            <img src="assets/images/sidebar/img-4.jpg" alt="Section Image 3"
-                                                style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
-                                        </td>
-                                        <td>اسم المنتج العربي 2</td>
-                                        <td>Product Name 2</td>
-                                        <td>وصف المنتج العربي 2</td>
-                                        <td>Product Description 2</td>
-                                        <td>$30</td>
-                                        <td>15%</td>
-                                        <td><input style="max-width: 50px; margin: 0 auto; text-align: center; outline: 0; padding: 7px; color: #299cdb; border: #299cdb 1px solid; border-radius: 3px;" placeholder="70" type="number"></td>
-                                        <td><button class="btn btn-outline-info">View Items</button></td>
-                                        <td><button class="btn btn-outline-info">View Additions</button></td>
+                                        <td>نادي سموحة </td>
+                                        <td>Smoha club</td>
+
                                         <td>
                                             <!-- <button class="btnn bttn-success">
                                                 <i class="ri-eye-fill fs-16"></i>
@@ -677,19 +644,9 @@
                                                     value="option3">
                                             </div>
                                         </td>
-                                        <td>
-                                            <img src="assets/images/sidebar/img-4.jpg" alt="Section Image 3"
-                                                style="width: 50px; height: 50px; object-fit: cover; border-radius: 12px;">
-                                        </td>
-                                        <td>اسم المنتج العربي 3</td>
-                                        <td>Product Name 3</td>
-                                        <td>وصف المنتج العربي 3</td>
-                                        <td>Product Description 3</td>
-                                        <td>$25</td>
-                                        <td>20%</td>
-                                        <td><input style="max-width: 50px; margin: 0 auto; text-align: center; outline: 0; padding: 7px; color: #299cdb; border: #299cdb 1px solid; border-radius: 3px;" placeholder="60" type="number"></td>
-                                        <td><button class="btn btn-outline-info">View Items</button></td>
-                                        <td><button class="btn btn-outline-info">View Additions</button></td>
+                                        <td>سيتي كلوب</td>
+                                        <td>City club</td>
+
                                         <td>
                                             <!-- <button class="btnn bttn-success">
                                                 <i class="ri-eye-fill fs-16"></i>
@@ -775,5 +732,4 @@
     <script src="assets/js/pages/datatables.init.js"></script>
 
 </body>
-
 </html>

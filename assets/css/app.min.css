@@ -5353,6 +5353,7 @@ button {
     --vz-btn-active-border-color: var(--vz-info-text-emphasis)
 }
 
+
 .btn-outline-info {
     --vz-btn-color: var(--vz-info);
     --vz-btn-bg: transparent;
