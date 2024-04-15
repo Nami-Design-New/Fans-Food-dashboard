@@ -417,3 +417,22 @@
   font-weight: 600;
   margin-bottom: 0 !important;
 }
+.notifications .not-card {
+  display: block;
+  align-items: center;
+  padding: 40px 0;
+  border-bottom: 1px rgba(0, 0, 0, 0.301) solid;
+}
+.notifications .not-card img{
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+/* .notifications .not-card h2{
+
+} */
+.notifications .not-card h5{
+  display: block;
+  color: #0ab39c;
+  margin-left: 85px;
+}
